@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+const pws="Ra@j1"
+
+if(!/[A-Z]/.test(pws)){
+console.log( "at Least One Upper case Alphabet needed")
+}
+
+if(!/[a-z]/.test(pws)){
+console.log( "at Least One lower case Alphabet needed")
+}
+if(!/[0-9]/.test(pws)){
+console.log( "at Least One Numeric Alphabet needed")
+}
+if(!/[@_#$%.,;/?~!`*()]/.test(pws)){
+console.log( "at Least One Special  character needed")
+}
+else{
+    console.log("all right")
+}
+
+</script>
+
+</body>
+</html>
